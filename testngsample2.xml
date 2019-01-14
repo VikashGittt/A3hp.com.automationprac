@@ -104,7 +104,7 @@
 		</classes>
  	</test>
 
- <!-- 	-->	<test name="CHTest2-HomepageTest"  >	 
+ <!-- 		<test name="CHTest2-HomepageTest"  >	 
 		<parameter name="Browser" value="CH" ></parameter>
 		<parameter name="URL" value="http://automationpractice.com/index.php"></parameter>
 		<parameter name="OSName" value="WINDOWS"></parameter>	
@@ -117,9 +117,9 @@
 		<classes>
 			<class name= "com.a3hp.automationpracticee.framework.test.homepage.HomepageTest"/>		
 		</classes>		
- 	</test> 
+ 	</test> -->
 
- <!--  -->	<test name="FFTest2-HomepageTest" > 
+ <!--  	<test name="FFTest2-HomepageTest" > 
 		<parameter name="Browser" value="FF"></parameter>
 		<parameter name="URL" value="http://automationpractice.com/index.php"></parameter>
 		<parameter name="OSName" value="WINDOWS"></parameter>	
@@ -138,5 +138,5 @@
 		<classes>	
 			<class name= "com.a3hp.automationpracticee.framework.helper.TestBase.TestRunner"/>			
 		</classes>		
- 	</test>
+ 	</test>-->
 </suite>	
